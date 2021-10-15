@@ -1,0 +1,85 @@
+h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size:large ;
+}
+p{
+    color: rgb(0, 0, 0);
+}
+body{
+    background: url(loginPage.jpeg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    
+    
+}
+
+.login-form{
+    background-color: rgba(0, 124, 72, 0.7);
+    width: 340px;
+    height: 400px;
+    margin: 0;
+    padding: 40px;
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border-color: rgb(36, 255, 47);
+    text-align: center;
+    
+    
+}
+input{
+    width: 100%;
+    margin-bottom: 10px;
+    
+}
+.login-form input[type="text"], input[type="password"]{
+    border-radius: 20px;
+    border-color: rgb(36, 255, 36);
+    height: 30px;
+    padding-left: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    
+}
+.login-form input[type="button"]{
+    
+    
+    outline: none;
+    height: 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+    background-color: rgb(160, 160, 160);
+    color: rgb(0, 0, 0);
+    border-color: rgb(43, 255, 36);
+    font-weight: bold;
+}
+.login-form input[type="button"]:hover{
+    background-color: rgb(19, 143, 25);
+    
+    
+}
+.login-form a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    float:right ;
+    margin-top: 10px;
+}
+.login-form a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.login-form a{
+    text-decoration: none;
+    color: rgb(80, 205, 255);
+    font-size: large;
+    background-color: rgba(1, 94, 21, 0.6);
+    padding: 3px;
+    border-radius: 6px;
+}   
